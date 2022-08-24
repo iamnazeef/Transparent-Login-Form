@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: Poppins;
+}
+
+.main-img {
+    background-image: url("images/image.jpg");
+    background-color: rgb(15, 17, 151);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form {
+    /* border: 1px solid white; */
+    height: 450px;
+    width: 350px;
+    position: fixed;
+    box-shadow: 0 0 15px 1px black;
+    -webkit-box-shadow: 0 0 13px 1px black;
+    -moz-box-shadow: 0 0 13px 1px black;
+    background-color: hsla(201, 100%, 6%, 0.6);
+    width: 50%;
+    min-width: 350px;
+    max-width: 350px;
+    border-radius: 10px;
+}
+
+.login-form {
+    color: whitesmoke;
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.login-form h2 {
+    /* text-decoration: underline; */
+    text-shadow: 1px 1px rgb(41, 41, 41);
+}
+
+input[type="email"] {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    height: 25px;
+    width: 250px;
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+    padding: 2px;
+}
+
+#email::placeholder {
+    color: white;
+    font-family: Poppins;
+    font-size: 18px;
+}
+
+input[type="password"] {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    height: 25px;
+    width: 250px;
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+#password::placeholder {
+    color: white;
+    font-family: Poppins;
+    font-size: 18px;
+}
+
+.login-info {
+    margin-bottom: 25px;
+}
+
+.button-el {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    border: 2px solid white;
+    width: 110px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+}
+
+.button:hover {
+    background-color: limegreen;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+.frgtpass {
+    margin-top: 5px;
+}
+
+.frgtpass a {
+    color: white;
+    font-size: smaller;
+}
+
+.frgtpass a:hover {
+    /* color: red; */
+    background-color: red;
+}
